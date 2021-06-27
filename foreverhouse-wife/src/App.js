@@ -5,13 +5,14 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Blog from "./components/Blog";
 import Vids from "./components/Vids";
-import Subscribe from "./components/Subscribe"
+import Subscribe from "./components/Subscribe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Router>
+        <Navbar />
         <Switch>
           <Route exact path="/">
             <Home />
@@ -29,6 +30,7 @@ function App() {
             <Subscribe />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

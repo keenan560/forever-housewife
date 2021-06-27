@@ -24,16 +24,14 @@ function About() {
             mauris. Risus ultricies tristique nulla aliquet enim tortor at. Nec
             feugiat nisl pretium fusce id velit ut.
           </h3>
-          <iframe
-          className='about__video'
-            width="100%"
-            height="500px"
+          {/* <iframe
+            className="about__video"
             src="https://www.youtube.com/embed/kayOhGRcNt4"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          ></iframe> */}
         </div>
 
         <div className="about__video__container"></div>

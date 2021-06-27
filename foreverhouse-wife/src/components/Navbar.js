@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 import InfoIcon from "@material-ui/icons/Info";
 import BookIcon from "@material-ui/icons/Book";
 import VideoLabelIcon from "@material-ui/icons/VideoLabel";
@@ -10,8 +11,8 @@ function Navbar() {
     <div className="navbar__container animate__animated animate__fadeIn animate__faster">
       {/* Left */}
       <div className="navbar__left">
-        <a href="/">
-          <p className="navbar__brand">Forever Housewife</p>
+        <a className="navbar__brand" href="/">
+          Forever Housewife
         </a>
       </div>
       {/* Right */}
