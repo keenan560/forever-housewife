@@ -32,9 +32,15 @@ function Home() {
         </div>
         {/* Video */}
         <div className="home__latest__vid">
-          <video width="100%" height="240" controls>
-            <source src="https://youtu.be/98d_PBk218c" type="vide/mp4"></source>
-          </video>
+          <iframe
+            width="460"
+            height="240"
+            src="https://www.youtube.com/embed/NSD2WW8xieY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
     </div>

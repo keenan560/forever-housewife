@@ -1,0 +1,34 @@
+.about__container {
+}
+
+.about__title {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 100px;
+  color: var(--logo);
+}
+
+.about__desc {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about__summer {
+  object-fit: contain;
+  flex: 0.5;
+  max-width: 800px;
+  height: 800px;
+  border-bottom-left-radius: 300px;
+  border-bottom-right-radius: 200px;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 300px;
+}
+
+.about__text {
+  flex: 0.5;
+  margin-right: 10px;
+}
+
+.about__video {
+  margin-top: 50px;
+}
